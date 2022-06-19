@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+.banner img {
+    width: 100%;
+    
+    border-radius: 15px;
+}
+
+.pilih-jenisproduk img {
+    max-height: 100px;
+
+}
+
+.pilih-jenisproduk .card {
+    border-radius: 15px;
+}
+
+.best-seller img {
+    max-height: 150px;
+}
+
+.best-seller .card {
+    border-radius: 15px;
+}
+
+.footer-icon {
+    border-radius: 15px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+}
+
+.breadcrumb .active {
+    font-weight: bold;
+    color: black;
+}
+
+.btn-primary {
+    border-radius: 15px;
+    
+}
+
+.hover-jenis {
+    color: black;
+    transition: .3s;
+}
+
+.hover-jenis:hover {
+    color: black;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.gambar-produk {
+    background-color: #F1F1F1;
+    border-width: 0;
+    border-radius: 15px;
+
+}
+
+.card-body-accordion {
+    cursor: pointer;
+    padding-top: 0;
+}
+
+.trash-button {
+    color: red;
+    opacity: 0.5;
+}
+
+.trash-button:hover {
+    cursor: pointer;
+    opacity: 1;
+}
